@@ -1,5 +1,10 @@
-from dollynn.code import foo
+from dollynn.code import MyArray
 
 
 def test_me():
-    assert foo()
+    arr = MyArray([1,2,3])
+    arr.foo("hello")
+
+
+
+
