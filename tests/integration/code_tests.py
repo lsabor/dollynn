@@ -1,5 +1,6 @@
-from dollynn.code import foo
+from dollynn.my_file import MyArray
 
 
 def test_me():
-    assert foo()
+    arr = MyArray([])
+    assert arr.foo()
